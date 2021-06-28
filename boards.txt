@@ -1,0 +1,26 @@
+menu.cpu=Processor
+menu.clock=Clock
+
+################################################################################
+
+ATmegaXXU4.name=Bare Atmega16/32U4
+
+ATmegaXXU4.bootloader.tool=arduino:avrdude
+ATmegaXXU4.bootloader.unlock_bits=0xff
+ATmegaXXU4.bootloader.lock_bits=0xff
+ATmegaXXU4.build.core=arduino:arduino
+ATmegaXXU4.build.board=attiny
+ATmegaXXU4.upload.tool=arduino:avrdude
+
+ATmegaXXU4.menu.cpu.attiny25=ATmega16U4
+ATmegaXXU4.menu.cpu.attiny25.upload.maximum_size=16384
+ATmegaXXU4.menu.cpu.attiny25.upload.maximum_data_size=1280
+ATmegaXXU4.menu.cpu.attiny25.build.mcu=atmega16u4
+ATmegaXXU4.menu.cpu.attiny25.build.variant=atmegaxxu4
+
+ATmega32U4.menu.cpu.attiny45=ATmega32u4
+ATmegaXXU4.menu.cpu.attiny25.upload.maximum_size=32768
+ATmega32U4.menu.cpu.attiny45.upload.maximum_data_size=2560
+ATmega32U4.menu.cpu.attiny45.build.mcu=atmega32u4
+ATmega32U4.menu.cpu.attiny45.build.variant=atmegaxxu4
+
