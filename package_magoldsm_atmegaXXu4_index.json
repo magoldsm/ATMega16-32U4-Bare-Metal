@@ -1,33 +1,29 @@
 {
   "packages": [
     {
-      "name": "attiny",
-      "maintainer": "David A. Mellis",
-      "websiteURL": "https://github.com/damellis/attiny",
+      "name": "atmegaXXu4",
+      "maintainer": "Michael A. Goldsmith",
+      "websiteURL": "https://github.com/magoldsm/ATMega16-32U4-Bare-Metal",
       "email": "",
       "help": {
         "online": ""
       },
       "platforms": [
         {
-          "name": "attiny",
+          "name": "atmegaxxu4",
           "architecture": "avr",
-          "version": "1.0.2",
-          "category": "attiny",
+          "version": "1.0.0",
+          "category": "atmegaxxu4",
           "help": {
             "online": ""
           },
-          "url": "https://github.com/damellis/attiny/archive/6bba7d452af59d5190025bc870ec9e53d170e4d9.zip",
-          "archiveFileName": "6bba7d452af59d5190025bc870ec9e53d170e4d9.zip",
-          "checksum": "SHA-256:1654a8968fea7d599255bd18430786f9c84340606e7a678b9cf9a3cd49d94ad7",
-          "size": "5913",
+          "url": "https://github.com/magoldsm/ATMega16-32U4-Bare-Metal/blob/main/ATMega16-32U4-Bare-Metal.zip",
+          "archiveFileName": "ATMega16-32U4-Bare-Metal.zip",
+          "checksum": "SHA-256:8367e7eec41dc6953232ffaee3ae2e08b45112163443f10265062d65eab8665c",
+          "size": "3632",
           "boards": [
-            {"name": "ATtiny25"},
-            {"name": "ATtiny45"},
-            {"name": "ATtiny85"},
-            {"name": "ATtiny24"},
-            {"name": "ATtiny44"},
-            {"name": "ATtiny84"}
+            {"name": "ATmega16U4"},
+            {"name": "ATmega32U4"}
           ]
         }
       ],
