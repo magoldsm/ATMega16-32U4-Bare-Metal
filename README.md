@@ -1,4 +1,4 @@
-ATtiny
+ATMega16/32U4
 =======
 
 This repo contains a set of "cores" which adds support for some members of the Atmel AVR ATMega16/32U4 family of microcontroller to the Arduino IDE.
