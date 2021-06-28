@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/magoldsm/ATMega16-32U4-Bare-Metal/raw/main/ATMega16-32U4-Bare-Metal.zip",
           "archiveFileName": "ATMega16-32U4-Bare-Metal.zip",
-          "checksum": "SHA-256:ea026d5a50e7f6078b8e0a3a5ec26d20aa0c649f08680f4bbe475fca3ec7e1c6",
-          "size": "4044",
+          "checksum": "SHA-256:f9ca8967a3422b77f4a2232bd55705a8ba1540de88ce07edc07d60e3635464f3",
+          "size": "4042",
           "boards": [
             {"name": "ATmega16U4"},
             {"name": "ATmega32U4"}
