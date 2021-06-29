@@ -11,16 +11,21 @@ ATmegaXXU4.bootloader.lock_bits=0xff
 ATmegaXXU4.build.core=arduino:arduino
 ATmegaXXU4.build.board=attiny
 ATmegaXXU4.upload.tool=arduino:avrdude
+ATmegaXXU4.build.f_cpu=16000000L
+ATmegaXXU4.build.vid=0x239A
+ATmegaXXU4.build.pid=0x800A
+ATmegaXXU4.build.extra_flags={build.usb_flags}
+ATmegaXXU4.build.usb_product="Bare Atmega16/32U4"
 
-ATmegaXXU4.menu.cpu.attiny25=ATmega16U4
-ATmegaXXU4.menu.cpu.attiny25.upload.maximum_size=16384
-ATmegaXXU4.menu.cpu.attiny25.upload.maximum_data_size=1280
-ATmegaXXU4.menu.cpu.attiny25.build.mcu=atmega16u4
-ATmegaXXU4.menu.cpu.attiny25.build.variant=atmegaxxu4
+ATmegaXXU4.menu.cpu.atmega16u4=ATmega16U4
+ATmegaXXU4.menu.cpu.atmega16u4.upload.maximum_size=16384
+ATmegaXXU4.menu.cpu.atmega16u4.upload.maximum_data_size=1280
+ATmegaXXU4.menu.cpu.atmega16u4.build.mcu=atmega16u4
+ATmegaXXU4.menu.cpu.atmega16u4.build.variant=atmegaxxu4
 
-ATmegaXXU4.menu.cpu.attiny45=ATmega32u4
-ATmegaXXU4.menu.cpu.attiny25.upload.maximum_size=32768
-ATmegaXXU4.menu.cpu.attiny45.upload.maximum_data_size=2560
-ATmegaXXU4.menu.cpu.attiny45.build.mcu=atmega32u4
-ATmegaXXU4.menu.cpu.attiny45.build.variant=atmegaxxu4
+ATmegaXXU4.menu.cpu.atmega32u4=ATmega32u4
+ATmegaXXU4.menu.cpu.atmega32u4.upload.maximum_size=32768
+ATmegaXXU4.menu.cpu.atmega32u4.upload.maximum_data_size=2560
+ATmegaXXU4.menu.cpu.atmega32u4.build.mcu=atmega32u4
+ATmegaXXU4.menu.cpu.atmega32u4.build.variant=atmegaxxu4
 
