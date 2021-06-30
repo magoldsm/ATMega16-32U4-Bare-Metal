@@ -12,9 +12,10 @@ ATmegaXXU4.build.core=arduino:arduino
 ATmegaXXU4.build.board=attiny
 ATmegaXXU4.upload.tool=arduino:avrdude
 ATmegaXXU4.build.f_cpu=16000000L
-ATmegaXXU4.build.vid=0x239A
-ATmegaXXU4.build.pid=0x800A
+ATmegaXXU4.build.vid=0x04D8
+ATmegaXXU4.build.pid=0xE8EA
 ATmegaXXU4.build.extra_flags={build.usb_flags}
+ATmegaXXU4.build.usb_manufacturer="Microchip Technology, Inc."
 ATmegaXXU4.build.usb_product="Bare Atmega16/32U4"
 
 ATmegaXXU4.menu.cpu.atmega16u4=ATmega16U4
